@@ -1,0 +1,11 @@
+{
+  "name": "fe-variables",
+  "version": "1.0.0",
+  "description": "global variables for frontend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CangLe",
+  "license": "ISC"
+}
