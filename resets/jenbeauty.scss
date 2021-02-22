@@ -1,0 +1,12 @@
+@use "normalize";
+
+:global {
+  p,
+  ol,
+  ul,
+  blockquote,
+  figure {
+    margin: 0;
+    padding: 0;
+  }
+}

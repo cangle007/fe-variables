@@ -1,0 +1,18 @@
+@use "../variables/palette.scss";
+@use "../variables/font.scss";
+
+:global {
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @include font.family;
+    color: palette.$black;
+    background: palette.$white;
+    font-weight: 400;
+  }
+}

@@ -1,0 +1,11 @@
+@mixin family($family: 'Roboto') {
+  @if $family == 'Roboto' {
+    font-family: Roboto, sans-serif;
+  } @else if $family == 'Helvetica' {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+}
+
+@mixin size($size) {
+  font-size: $size + rem;
+}

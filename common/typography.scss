@@ -1,0 +1,58 @@
+@use "../variables/palette.scss";
+@use "../variables/heading.scss";
+
+:global {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 0;
+    color: palette.$neutral-6;
+    font-weight: 700;
+
+    // &.heading-xs {
+    //   @include font.size(heading.$xs);
+    // }
+
+    // &.heading-sm {
+    //   @include font.size(heading.$sm);
+    // }
+
+    // &.heading-md {
+    //   @include font.size(heading.$md);
+    // }
+
+    // &.heading-lg {
+    //   @include font.size(heading.$lg);
+    // }
+
+    // &.heading-xl {
+    //   @include font.size(heading.$xl);
+    // }
+  }
+
+  a {
+    color: palette.$primary;
+    font-weight: 500;
+    transition: color 0.2s;
+
+    &:hover {
+      color: palette.adjust(palette.$primary, $lightness: -10%);
+    }
+  }
+
+  ul {
+    margin: 0 0 0 20px;
+    padding: 0 0 0 20px;
+    list-style: disc;
+
+    li {
+      display: list-item;
+      margin: 0;
+      padding: 0;
+      list-style-position: outside;
+    }
+  }
+}

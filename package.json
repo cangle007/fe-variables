@@ -2,11 +2,13 @@
   "name": "fe-variables",
   "version": "1.0.1",
   "description": "global variables for frontend application",
-  "main": "index.js",
+  "main": "index.scss",
   "scripts": {
     "test": "echo \"No test specified\""
   },
   "author": "CangLe",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
 }
