@@ -1,5 +1,5 @@
-@use "../variables/palette.scss";
-@use "../variables/font.scss";
+@import '../variables/palette.scss';
+@import '../variables/font.scss';
 
 :global {
   html {
@@ -11,8 +11,8 @@
 
   body {
     @include font.family;
-    color: palette.$black;
-    background: palette.$white;
+    color: $black;
+    background: $white;
     font-weight: 400;
   }
 }
