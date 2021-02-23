@@ -8,7 +8,5 @@
   },
   "author": "CangLe",
   "license": "ISC",
-  "dependencies": {
-    "sass": "^1.32.8"
-  }
+  "dependencies": {}
 }
