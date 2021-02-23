@@ -1,5 +1,5 @@
-// @import 'palette';
+@use 'palette';
 
-$drop-shadow-1: 0 4px 10px 0 rgba($black, 0.16) !default;
-$drop-shadow-2: 0 8px 20px 0 rgba($black, 0.16) !default;
-$drop-shadow-3: 0 12px 30px 0 rgba($black, 0.16) !default;
+$drop-shadow-1: 0 4px 10px 0 rgba(palette.$black, 0.16) !default;
+$drop-shadow-2: 0 8px 20px 0 rgba(palette.$black, 0.16) !default;
+$drop-shadow-3: 0 12px 30px 0 rgba(palette.$black, 0.16) !default;

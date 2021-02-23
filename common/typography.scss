@@ -1,5 +1,6 @@
-// @import '../variables/palette';
-// @import '../variables/heading';
+@use "sass:color";
+@use '../variables/palette';
+@use '../variables/heading';
 
 :global {
   h1,
@@ -9,7 +10,7 @@
   h5,
   h6 {
     margin-top: 0;
-    color: $neutral-6;
+    color: palette.$neutral-6;
     font-weight: 700;
 
     // &.heading-xs {
@@ -34,13 +35,12 @@
   }
 
   a {
-    color: $primary;
+    color: palette.$primary;
     font-weight: 500;
     transition: color 0.2s;
 
     &:hover {
-      color: darken($primary, 10);
-      // color: orange;
+      color: color.adjust(palette.$primary, 10);
     }
   }
 
