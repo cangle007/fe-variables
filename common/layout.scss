@@ -10,7 +10,7 @@
   }
 
   body {
-    @include font.family;
+    @include family();
     color: $black;
     background: $white;
     font-weight: 400;
