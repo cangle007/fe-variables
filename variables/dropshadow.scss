@@ -1,4 +1,4 @@
-@use "../variables/palette.scss";
+@use "palette";
 
 $drop-shadow-1: 0 4px 10px 0 rgba(palette.$black, 0.16);
 $drop-shadow-2: 0 8px 20px 0 rgba(palette.$black, 0.16);
