@@ -1,6 +1,6 @@
 {
   "name": "fe-variables",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "global variables for frontend application",
   "main": "index.scss",
   "scripts": {
