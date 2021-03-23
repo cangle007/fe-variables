@@ -1,5 +1,5 @@
-@use '../variables/palette';
-@use '../mixins/font';
+@import '../variables/palette';
+@import '../mixins/font';
 
 :global {
   html {
@@ -11,8 +11,8 @@
 
   body {
     @include font.family;
-    color: palette.$black;
-    background: palette.$white;
+    color: $black;
+    background: $white;
     font-weight: 400;
   }
 }
