@@ -11,8 +11,8 @@
 
   body {
     @include family;
-    color: $black;
-    background: $white;
+    color: palette.$black;
+    background: palette.$white;
     font-weight: 400;
   }
 }
