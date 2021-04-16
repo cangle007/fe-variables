@@ -39,7 +39,7 @@
     transition: color 0.2s;
 
     &:hover {
-      color: adjust-color(palette.$primary, $lightness: -10);
+      color: adjust-color(palette.$primary, $lightness: -10%);
     }
   }
 
