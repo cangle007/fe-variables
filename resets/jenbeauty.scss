@@ -1,6 +1,15 @@
 @use './normalize';
 
 :global {
+  * {
+    box-sizing: inherit;
+
+    &::before,
+    &::after {
+      box-sizing: inherit;
+    }
+  }
+
   p,
   ol,
   ul,
